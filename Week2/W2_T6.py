@@ -1,0 +1,22 @@
+# A2_T6 Hex Colors (TEST TASK)
+# Write a Python program which asks user to insert hex color. 
+print("Program starting.")
+hex = input("Insert a hex color: ")
+
+print("Colors")
+FirstTwo = hex[0:3]
+SecondTwo = hex[3:5]
+LastTwo = hex[5:7]
+
+print(f"- Red {FirstTwo}")
+print(f"- Green {SecondTwo}")   
+print(f"- Blue {LastTwo}")
+print("Program ending.")   
+
+
+# In this case hex color is expected to be the 7 character representation 
+# starting with # and followed by 6 0-F characters to represent RGB colors. 
+# More about hex colors at https://en.wikipedia.org/wiki/Web_colors
+
+# Slice the amount of red, green and blue from that inserted color 
+# and display each color as shown below.
