@@ -12,7 +12,7 @@ print("Program starting.\n")
 Compound_word = input ("Insert a closed compound word: ")
 Length = len(Compound_word)
 reverse = Compound_word[::-1]
-print(f"The word you inserted is '{Compound_word}' and reverse it is '{reverse}'.")
+print(f"The word you inserted is '{Compound_word}' and in reverse it is '{reverse}'.")
 print(f"The inserted word length is {Length}")
 lastchar = Compound_word[-1]
 print(f"Last character is '{lastchar}'\n")
