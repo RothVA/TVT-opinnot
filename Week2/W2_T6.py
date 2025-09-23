@@ -1,16 +1,16 @@
 # A2_T6 Hex Colors (TEST TASK)
 # Write a Python program which asks user to insert hex color. 
-print("Program starting.")
+print("Program starting.\n")
 hex = input("Insert a hex color: ")
 
-print("Colors")
-FirstTwo = hex[0:3]
+print("\nColors")
+FirstTwo = hex[1:3]
 SecondTwo = hex[3:5]
 LastTwo = hex[5:7]
 
 print(f"- Red {FirstTwo}")
 print(f"- Green {SecondTwo}")   
-print(f"- Blue {LastTwo}")
+print(f"- Blue {LastTwo}\n")
 print("Program ending.")   
 
 
