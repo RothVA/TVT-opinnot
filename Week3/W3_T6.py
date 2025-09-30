@@ -54,12 +54,12 @@ elif (choice == 2):
     weight_choice = int(input("Your choice: "))
     if (weight_choice == 1):
         g = float(input("Insert grams: "))
-        lbs = g / 453.592
-        print(f"{g:.1f} g is {lbs:.1f} lbs")
+        lb = g / 453.6
+        print(f"{g:.1f} g is {lb:.1f} lb")
     elif (weight_choice == 2):
-        lbs = float(input("Insert pounds: "))
-        g = lbs * 453.592
-        print(f"{lbs:.1f} lbs is {g:.1f} g")
+        lb = float(input("Insert pounds: "))
+        g = lb * 453.6
+        print(f"{lb:.1f} lb is {g:.1f} g")
     elif (weight_choice == 0):
         print ("\nExiting...")
     else:

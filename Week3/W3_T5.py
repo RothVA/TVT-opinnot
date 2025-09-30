@@ -30,7 +30,9 @@ elif (choice == 2):
     print(f"{Fahrenheit:.1f} °F equals to {celsius:.1f} °C")
 elif (choice == 0):
     print("Exiting...")
-
+else: 
+    print("\nUnknown option.")
+print("")
 print("\nProgram ending.")
 
 
