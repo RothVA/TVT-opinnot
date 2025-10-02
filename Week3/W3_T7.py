@@ -24,9 +24,50 @@
 # Other possible output variats:
 # “Unknown option.”
 
+print("Program starting.")
+print("Testing decision structures.")
 
+user_value = input("Insert an integer: ")
+value = int(user_value)
 
+print("Options:")
+print("1 - In one multi branched decision")
+print("2 - In multiple independent if statements")
+print("0 - Exit")
 
+Feed = (input("Your choice: "))
+choice = int(Feed)
+
+#ohittaa if lauseen ei lähde laskemaan pyyntöä / laskut toimii jos erillisiä if lausekkeita = näyttä 3 tulosta
+if (choice == 1):
+        print("Using one multi branched decision structure")
+        if value >= 400: 
+             value += 44
+        elif value >=200:
+            value +=22
+        elif value >=100:
+            value += 11
+        print(f"Result is {value}")
+# if + elif lausekkeet kysyy vain yksittäisen elif kyselyn
+
+elif (choice == 2): 
+        print("Using multiple independent if-statements structure.")
+        if value >= 400:
+         value += 44
+        if value >=200:
+         value +=22
+        if user_value >=100:
+         value += 11
+        print(f"Result is {value}")
+# if + if lausekkeet ei skippaa sisäkkäisiä kyselyitä
+
+elif (choice == 0):
+    print("Exiting...")
+else: 
+    print("Unknown options.")
+
+print("")
+print("\nProgram ending.")
 
 
 
